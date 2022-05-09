@@ -1,7 +1,17 @@
-//find the multiplication of 5 numbers
+//find the largest
 
-arr=[1,2,3,4,5].reduce(function (result,itmes) {
-    return result*itmes
-    
-})
-console.log(arr);
+function num1(a,b,c) {
+   
+    if (a>b && a>c) {
+        return a
+        
+    }
+    else if (b>a && b>c) {
+        return b
+        
+    }
+    else {
+        return c
+    }
+}
+console.log(num1(1,4,2));
